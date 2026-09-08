@@ -5,5 +5,5 @@ function Rua() {
     let ResultadoURL = fetch(url)
 
     .then(ResultadoURL => ResultadoURL.json())
-    .then(dadosURL =>{document.getElementById("resultado").textContent = dadosURL.logradouro})
+    .then(dadosURL =>{document.getElementById("resultado").textContent = dadosURL.bairro})
 }
