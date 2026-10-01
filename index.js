@@ -1,13 +1,26 @@
-const readline = require('readline-sync')
-let senha = ''
-let senhaCorreta = "senha"
-senha = readline.question('Digite sua senha')
+//const readline = require('readline-sync')
+//let senha = ''
+//let senhaCorreta = "senha"
+//senha = readline.question('Digite sua senha')
 
-if(senha==senhaCorreta)
+//if(senha==senhaCorreta)
+//{
+    //console.log("Você acessou")
+//}
+//else
+//{
+    //console.log("Senha incorreta tenta novamente")
+//}
+//=========================================================
+const readline = require('readline-sync')
+let nome = ''
+let nomeCerto = "Hiago"
+nome = readline.question('Digite seu nome:')
+if(nome==nomeCerto)
 {
-    console.log("Você acessou")
+    console.log("É você, como vai?")
 }
 else
 {
-    console.log("Senha incorreta tenta novamente")
+    console.log("Não é você!")
 }
